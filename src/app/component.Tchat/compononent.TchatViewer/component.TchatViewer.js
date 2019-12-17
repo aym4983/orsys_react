@@ -46,7 +46,7 @@ export default class TchatViewer extends React.Component {
                 .catch(response => {
                     console.log('err', response);
                 })
-        }, 1000);
+        }, 5000);
     }
 
     componentWillUnmount() {
