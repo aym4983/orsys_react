@@ -12,6 +12,7 @@ function User(props) {
             <div className="user-data">
                 Nom: <span className="user-name">{props.unUser.nom}</span><br/>
                 Prénom: <span className="user-name">{props.unUser.prenom}</span>
+                Service: <span className="user-service">{props.unUser.service}</span>
             </div>
         </div>
     );
