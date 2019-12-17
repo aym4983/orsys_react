@@ -4,10 +4,12 @@ import './App.css';
 import NavBar from './component.Navbar/component.Navbar'
 import User from './component.User/component.User.view'
 import UserList from './component.User/component.User.list'
+import Tchat from './component.Tchat/component.Tchat'
 
 function App() {
   return (
     <div className="App">
+      <Tchat></Tchat>
       <NavBar></NavBar>
       <UserList userList={
         [
