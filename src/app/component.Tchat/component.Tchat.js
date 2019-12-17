@@ -1,9 +1,9 @@
 import React from 'react';
 import { Render} from 'react-dom'
 
-import Main from './compononent.Main/component.Main'
-import Aside from './component.Aside/component.Aside'
-import Footer from './component.Footer/component.Footer'
+import TchatViewer from './compononent.TchatViewer/component.TchatViewer'
+import TchatSender from './component.TchatSender/component.TchatSender'
+import Users from './Users/Users'
 
 import './component.Tchat.css'
 
@@ -11,7 +11,7 @@ class Tchat extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            props: props
+            props: props,
         }
     }
 
@@ -19,10 +19,10 @@ class Tchat extends React.Component {
         return (
             <div className="Tchat container">
                 <div className="row">
-                <Main></Main>
-                <Aside></Aside>
+                <TchatViewer adrsrv={this.state.props.adrsrv}></TchatViewer>
+                <Users adrsrv={this.state.props.adrsrv}></Users>
                 </div>
-                <Footer></Footer>
+                <TchatSender adrsrv = {this.state.props.adrsrv}></TchatSender>
             </div>
         )
     }
