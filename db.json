@@ -1,0 +1,173 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "admin",
+      "img": "img/users/admin.jpg",
+      "desc": "",
+      "font": 1,
+      "groups": [
+        "god",
+        "admin"
+      ],
+      "prenom": "nie strator",
+      "serviceId": 0,
+      "tel": "3514",
+      "specialite": [
+        "React"
+      ],
+      "lastConn": "2021-04-23T18:25:43.511Z"
+    },
+    {
+      "id": 1,
+      "name": "Émoi",
+      "img": "img/users/1EA.jpg",
+      "desc": "",
+      "font": 3,
+      "group": [
+        "Moderateur"
+      ],
+      "prenom": "Élise",
+      "serviceId": 0,
+      "tel": "3517",
+      "specialite": [
+        "trés jolie",
+        "intelligente"
+      ],
+      "lastConn": "2019-04-23T18:25:43.511Z"
+    },
+    {
+      "id": 2,
+      "name": "Jacques",
+      "img": "img/users/2JU.jpg",
+      "desc": "",
+      "font": 2,
+      "group": [
+        "user"
+      ],
+      "prenom": "Use",
+      "serviceId": 0,
+      "tel": "3517",
+      "specialite": [
+        "Sympatique",
+        "pas futée",
+        "tres bon"
+      ],
+      "lastConn": "2012-04-23T18:25:43.511Z"
+    },
+    {
+      "id": 3,
+      "name": "Diossi",
+      "img": "img/users/3KD.jpg",
+      "desc": "",
+      "font": 1,
+      "group": [
+        "user"
+      ],
+      "prenom": "ÉlisKellye",
+      "serviceId": 1,
+      "tel": "3523",
+      "specialite": [
+        "trés jolie",
+        "pas intelligente"
+      ],
+      "lastConn": "2052-04-23T18:25:43.511Z"
+    }
+  ],
+  "privateDiscussions": [
+    {"id":0,
+      "date": "2019-12-24T23:00:00.OO1Z",
+      "userId": 0,
+      "messageTo": [
+        "*"
+      ],
+      "message": "hello"
+    }
+  ],
+  "publicDiscussions": [
+    {
+        "id":0,
+      "date": "2025-04-23T18:25:43.511Z",
+      "userId": 0,
+      "messageTo": [
+        "*"
+      ],
+      "message": "hello"
+    },
+    {
+        "id":1,
+        "date": "2025-04-23T18:25:43.511Z",
+        "userId": 0,
+        "messageTo": [
+          "*"
+        ],
+        "message": "hello"
+      },
+      {
+        "id":2,
+        "date": "2025-04-23T18:25:43.511Z",
+        "userId": 0,
+        "messageTo": [
+          "*"
+        ],
+        "message": "hello"
+      },
+      {
+        "id":3,
+        "date": "2025-04-23T18:25:43.511Z",
+        "userId": 0,
+        "messageTo": [
+          "*"
+        ],
+        "message": "hello"
+      },
+      {
+        "id":4,
+        "date": "2025-04-23T18:25:43.511Z",
+        "userId": 0,
+        "messageTo": [
+          "*"
+        ],
+        "message": "hello"
+      },
+      {
+        "id":5,
+        "date": "2025-04-23T18:25:43.511Z",
+        "userId": 0,
+        "messageTo": [
+          "*"
+        ],
+        "message": "hello"
+      },
+    {
+        "id":6,
+      "date": "2025-04-23T18:25:43.511Z",
+      "userId": 1,
+      "messageTo": [
+        "*"
+      ],
+      "message": "Salut"
+    },
+    {
+        "id":7,
+      "date": "2025-04-23T18:25:43.511Z",
+      "userId": 2,
+      "messageTo": [
+        "*"
+      ],
+      "message": "cc"
+    }
+  ],
+  "services": [
+    {
+      "id": 0,
+      "nom": "Informatique",
+      "surnom": "la genese"
+    },
+    {
+      "id": 1,
+      "nom": "commerciaux",
+      "surnom": "l'appocalpse"
+    }
+  ]
+}
