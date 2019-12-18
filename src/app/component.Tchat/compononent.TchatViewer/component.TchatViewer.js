@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import Modal from 'react-modal'
 import Moment from 'moment'
 import './component.TchatViewer.css'
 import moment from 'moment';
+
+Modal.setAppElement('#root')
 
 function Message(props) {
     return (
@@ -56,6 +59,9 @@ export default class TchatViewer extends React.Component {
     render() {
         return (
             <div className="TchatViewer card-body col-9">
+                <Modal className="modal" isOpen={ this.modalIsOpen} contentLabel={ this.modalLabel}>
+                    <p className="modal-content">{this.modalMessage}</p>
+                </Modal>
                 {
                     this.state.messages.map((e, i) => {
                         return <Message message={e} key={'message' + i}></Message>

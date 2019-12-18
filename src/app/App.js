@@ -20,8 +20,8 @@ function App() {
           <Route path="/tchat">
             <Tchat adrsrv={ADR_SRV}></Tchat>
           </Route>
-          <Route path="/User">
-
+          <Route path="/user/:id">
+            <User adrsrv={ADR_SRV}></User>
           </Route>
         </Switch>
       </Router>
